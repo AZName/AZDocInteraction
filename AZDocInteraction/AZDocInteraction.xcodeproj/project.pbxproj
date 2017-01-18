@@ -21,6 +21,8 @@
 		EA21F7AB1E2F01B400E40313 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21F7A31E2F01B400E40313 /* AFURLRequestSerialization.m */; };
 		EA21F7AC1E2F01B400E40313 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21F7A51E2F01B400E40313 /* AFURLResponseSerialization.m */; };
 		EA21F7AD1E2F01B400E40313 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21F7A71E2F01B400E40313 /* AFURLSessionManager.m */; };
+		EA21F7AF1E2F1F9400E40313 /* file.doc in Resources */ = {isa = PBXBuildFile; fileRef = EA21F7AE1E2F1F9400E40313 /* file.doc */; };
+		EA21F7B11E2F2E5D00E40313 /* file2.zip in Resources */ = {isa = PBXBuildFile; fileRef = EA21F7B01E2F2E5D00E40313 /* file2.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		EA21F7A51E2F01B400E40313 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		EA21F7A61E2F01B400E40313 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		EA21F7A71E2F01B400E40313 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EA21F7AE1E2F1F9400E40313 /* file.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = file.doc; sourceTree = "<group>"; };
+		EA21F7B01E2F2E5D00E40313 /* file2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = file2.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				EA21F76B1E2F013800E40313 /* AppDelegate.m */,
 				EA21F76D1E2F013800E40313 /* ViewController.h */,
 				EA21F76E1E2F013800E40313 /* ViewController.m */,
+				EA21F7B01E2F2E5D00E40313 /* file2.zip */,
+				EA21F7AE1E2F1F9400E40313 /* file.doc */,
 				EA21F7701E2F013800E40313 /* Main.storyboard */,
 				EA21F7731E2F013800E40313 /* Assets.xcassets */,
 				EA21F7751E2F013800E40313 /* LaunchScreen.storyboard */,
@@ -289,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA21F7AF1E2F1F9400E40313 /* file.doc in Resources */,
 				EA21F7771E2F013800E40313 /* LaunchScreen.storyboard in Resources */,
 				EA21F7741E2F013800E40313 /* Assets.xcassets in Resources */,
+				EA21F7B11E2F2E5D00E40313 /* file2.zip in Resources */,
 				EA21F7721E2F013800E40313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
